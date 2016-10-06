@@ -1,2 +1,2 @@
 # webgl-example
-This is a WebGL example in thre.js.
+This is a WebGL example in three.js.
