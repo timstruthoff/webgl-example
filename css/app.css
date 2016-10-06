@@ -1,0 +1,23 @@
+body {
+	font-family: Monospace;
+	font-weight: bold;
+	background-color: #000000;
+	margin: 0px;
+	overflow: hidden;
+	-webkit-user-select: none; /* disable selection/Copy of UIWebView */
+  -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
+}
+
+.press {
+	position: fixed;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	z-index: 1000;
+}
+
+.press.pressed {
+	transform: scale(0.9);
+}
